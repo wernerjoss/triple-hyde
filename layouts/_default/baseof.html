@@ -4,8 +4,22 @@
     <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
     {{ partial "sidebar.html" . }}
         <div class="content container">
+            <!-- see https://discourse.gohugo.io/t/select-first-image-from-page-content/42535/5     -->
+            {{ if .Params.FirstImg }}
+                {{- range first 1 (.Resources.ByType "image") }}
+                {{- $src := . }}
+                <img src={{ $src }} />
+                {{ end }}
+            {{ end }}
+            
             {{ block "content" . }}{{ end }}
         </div>
         {{ block "footer" . }}{{ end }}
+   
+        <!-- return-to-top fa Link for all pages 17.09.24   -->
+        <script src="/js/return-to-top.js"></script>
+        <a href="#top" id="return-to-top">
+        <i class="fa fa-chevron-up"></i>
+
     </body>
 </html>

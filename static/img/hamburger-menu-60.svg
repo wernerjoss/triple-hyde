@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.875mm"
+   height="15.875mm"
+   viewBox="0 0 15.875 15.875"
+   version="1.1"
+   id="svg419"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="hamburger-menu-60.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview421"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.65834035"
+     inkscape:cx="280.25018"
+     inkscape:cy="478.47591"
+     inkscape:window-width="1850"
+     inkscape:window-height="995"
+     inkscape:window-x="70"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs416" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-31.046262,-21.802689)">
+    <g
+       id="Page-1"
+       stroke="none"
+       stroke-width="1.33333"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0.66145833,0,0,0.66145833,31.046262,21.802689)">
+      <g
+         id="Menu"
+         style="stroke-width:1.33333">
+        <rect
+           id="Rectangle"
+           fill-rule="nonzero"
+           x="0"
+           y="0"
+           width="24"
+           height="24"
+           style="stroke-width:1.5396" />
+        <line
+           x1="5"
+           y1="7"
+           x2="19"
+           y2="7"
+           id="Path"
+           stroke="#0c0310"
+           stroke-width="2.66667"
+           stroke-linecap="round" />
+        <line
+           x1="5"
+           y1="17"
+           x2="19"
+           y2="17"
+           id="line6"
+           stroke="#0c0310"
+           stroke-width="2.66667"
+           stroke-linecap="round" />
+        <line
+           x1="5"
+           y1="12"
+           x2="19"
+           y2="12"
+           id="line8"
+           stroke="#0c0310"
+           stroke-width="2.66667"
+           stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>

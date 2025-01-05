@@ -18,7 +18,7 @@
   .hidden-tablet {
     display: none;
   }
-  .sidebar-about,
+  /*  .sidebar-about, visible ! 15.09.24 */
   .copyright {
     display: none;
   }
@@ -45,11 +45,11 @@
     text-decoration: none;
     cursor: pointer; }
   .collapsible-menu label {
-    background: url(/img/menu-open.svg) no-repeat left center;
+    background: url(/img/hamburger-menu-60.svg) no-repeat left center; // 02.01.24 url(/img/menu-open-dark.svg) no-repeat left center;
     background-position: 1.5rem;
     display: block;
     cursor: pointer;
-    color: #fff;
+    color: whitesmoke; /*  invisible :-) 15.09.24 #fff; */
     padding: 10px 0 10px 0px; }
 
   input#menuToggle {
@@ -60,9 +60,9 @@
   }
 
   input#menuToggle:checked + label {
-    background-image: url(/img/menu-close.svg);
+    background-image: url(/img/close-svgrepo-40.svg);  // 02.01.24 url(/img/menu-close-dark.svg);  // statt menu-close.svg 15.09.24
     background-position: 1.5rem;
-    color: #fff;
+    color: whitesmoke;  /*  statt #fff; 15.09.24  */
   }
 
   input#menuToggle:checked ~ .menu-content {

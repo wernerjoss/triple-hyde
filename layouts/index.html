@@ -4,6 +4,7 @@
 
 {{ define "content" }}
   <div class="post-list">
+    <h3>Willkommen bei Hoernerfranzracing - Aktuelles findet sich hier im Blog - alles Weitere in der Navigation  <img src="/uploads/symbole/emoticons/smile.png"></h3>
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
     {{ range $paginator.Pages }}
       {{ if .Draft }}
@@ -36,7 +37,7 @@
 {{ end }}
 
 {{ define "footer" }}
-  {{ if .Site.Config.Services.GoogleAnalytics.ID }}
+  {{ if .Site.GoogleAnalytics }}
     <!-- Google Analytics -->
     {{ template "_internal/google_analytics.html" . }}
   {{ end }}

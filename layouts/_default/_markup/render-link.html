@@ -1,0 +1,8 @@
+<!-- see https://discourse.gohugo.io/t/open-external-links-in-new-tab-window/34000/20   -->
+<a href="{{ .Destination | safeURL }}"
+{{ with .Title}} title="{{ . }}"{{ end }}
+{{ if strings.HasPrefix .Destination "http" }} 
+    target="_blank" rel="noopener noreferrer"
+{{ end }}>
+   {{ .Text | safeHTML }}
+</a>

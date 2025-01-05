@@ -1,0 +1,106 @@
+a {
+    color: darkblue;
+}
+a:hover {
+    color: #268bd2;
+}
+.sidebar {
+    color: black;
+    background-color: whitesmoke;
+    font-size: 1.4rem;
+    a {
+        color: darkblue;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.site__title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    img {
+        height: 165px;
+    }
+}  
+.site__description {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.content {
+    max-width: 90%;
+}
+// hfr logo
+.img--headshot {
+    height: 165px;
+    width: 165px;
+}
+// hfr logo nach fix lightbox, return-to-top
+.element--center {
+    height: 165px;
+    width: 165px;
+}
+.floatright {
+    float:right;
+    padding:1.5em;
+}
+// see https://henkverlinde.com/blog/email-obfuscation/
+span.email b {
+    display: none;
+}
+
+.post {
+    padding-right: 2em;
+}
+
+.posts {    // .posts class IS ul :-)
+    list-style-type:none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    // Kalender fc6 josswern 27.11.24
+  .fc .fc-toolbar-title {
+    font-size: 1.0em;
+  }
+  .fc .fc-button {
+    font-size: 0.5em;
+  }
+  .fc .fc-daygrid-week-number {
+	margin-top: 2em;
+  }
+}
+  // fix Tablet display issues 01.10.24
+@media (min-width: 768px) {
+    .content {
+        max-width: max-content!important;
+        padding-left: $content-margin-left!important;
+        margin-left: 1rem!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+        max-width: max-content!important;
+        padding-left: $content-margin-left!important;
+        margin-left: 1rem!important;
+    }
+}
+
+.card-body #content {
+    padding-bottom: 1em;
+}
+
+@media (min-width: 992px) { // 16.09.24
+    .sidebar {
+        width: 17rem;
+    }
+    .sidebar-nav {
+        text-align: left;
+        padding-left: 1rem;
+    }
+    .copyright {
+        text-align: left;
+        padding-left: 1rem;
+        font-size: 0.8rem;
+    }    
+}

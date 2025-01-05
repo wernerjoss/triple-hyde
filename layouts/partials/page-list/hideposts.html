@@ -1,7 +1,9 @@
 <span class="section__title">{{ .Title }}</span>
 {{ .Content }}  <!-- see https://discourse.gohugo.io/t/how-to-add-text-content-to-category-list-page/26583 -->
-<ul class="posts">
+<!-- Liste der Subpages mit class hidden_posts, wird versteckt, da alle Links schon explizit im Content sind
+<ul class="hidden_posts">   
     {{ with .Data.Pages }}
         {{ partial "posts-list.html" . }}
     {{ end }}
 </ul>
+-->

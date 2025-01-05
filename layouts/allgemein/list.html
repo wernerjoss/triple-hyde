@@ -1,0 +1,11 @@
+{{ define "header" }}
+    {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "content" }}
+    {{ partial "page-list/hideposts.html" . }}  <!-- anstatt content.html, erzeugt Liste der Subpages mit class hidden_posts    -->
+{{ end }}
+
+{{ define "footer" }}
+    {{ partial "page-list/footer.html" . }}
+{{ end }}

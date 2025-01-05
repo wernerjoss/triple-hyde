@@ -611,7 +611,7 @@ a.badge-tag {
     text-decoration: none;
     cursor: pointer; }
   .collapsible-menu label {
-    background: url(/img/menu-open.svg) no-repeat left center;
+    background: url(/img/menu-open-dark.svg) no-repeat left center;
     background-position: 1.5rem;
     display: block;
     cursor: pointer;
@@ -622,7 +622,7 @@ a.badge-tag {
   input#menuToggle + label {
     font-weight: bold; }
   input#menuToggle:checked + label {
-    background-image: url(/img/menu-close.svg);
+    background-image: url(/img/menu-close-dark.svg);
     background-position: 1.5rem;
     color: #fff; }
   input#menuToggle:checked ~ .menu-content {

@@ -19,6 +19,7 @@
     </div>
     {{ end }}
   {{ end }}
+  {{ .Site.Title }}
   {{ with .Site.Params.social.gravatar}}
     <div class="author-image">
       <img src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
